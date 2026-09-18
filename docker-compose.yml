@@ -1,7 +1,7 @@
 services:
   db:
     image: mariadb:latest
-    container_name: lemp_mariadb
+    container_name: Wilasinee
     volumes:
       - ./mariadb/initdb/:/docker-entrypoint-initdb.d
       - ./mariadb/data/:/var/lib/mysql/
